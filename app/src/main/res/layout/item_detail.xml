@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.openclassrooms.mareu.ui.meeting_list.MeetingDetailFragment">
+
+    <TextView
+        android:id="@+id/place_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_place_black_24dp"
+        android:drawablePadding="8dp"
+        android:padding="14dp"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/date_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_today_black_24dp"
+        android:drawablePadding="8dp"
+        android:padding="14dp"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/time_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_access_time_black_24dp"
+        android:drawablePadding="8dp"
+        android:padding="14dp"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/participants_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_people_black_24dp"
+        android:drawablePadding="8dp"
+        android:padding="14dp"
+        android:textIsSelectable="true" />
+
+</LinearLayout>

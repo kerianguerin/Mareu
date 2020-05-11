@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.openclassrooms.mareu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.meeting_list.MeetingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_meetings"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.meeting_list.NewMeetingActivity"
+            android:label="@string/title_activity_add_meeting"
+            android:parentActivityName=".ui.meeting_list.MeetingsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.openclassrooms.mareu.ui.meeting_list.MeetingsActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.meeting_list.MeetingDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ui.meeting_list.MeetingsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.openclassrooms.mareu.ui.meeting_list.MeetingsActivity" />
+        </activity>
+    </application>
+
+</manifest>

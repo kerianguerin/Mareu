@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Ma réu</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_add_meeting">Nouvelle Réunion</string>
+    <string name="time_input">Heure</string>
+    <string name="date_input">Date</string>
+    <string name="meeting_name_input">Nom</string>
+    <string name="place_input">Lieu</string>
+    <string name="participants_input">Liste des participants</string>
+    <string name="create_btn">Créer la réunion</string>
+    <string name="filtrer">Filtrer : </string>
+    <string-array name="labels_place_array">
+        <item>Birdo</item>
+        <item>Daisy</item>
+        <item>Donkey Kong</item>
+        <item>Harmonie</item>
+        <item>Luigi</item>
+        <item>Mario</item>
+        <item>Peach</item>
+        <item>Toad</item>
+        <item>Wario</item>
+        <item>Yoshi</item>
+    </string-array>
+    <string name="title_activity_meetings">Ma réu</string>
+    <string name="termin">Terminé</string>
+    <string name="lieu_de_r_union">Lieu de réunion :</string>
+    <string name="dates">Dates :</string>
+    <string name="delete_meeting_button">Delete Meeting Button</string>
+    <string name="cancel">Réinitialiser</string>
+    <string name="date">Date</string>
+    <string name="aucune_reunion_de_prevu">Aucune réunion de prévu!</string>
+    <string name="reinitialiser_initialiser_les_filtres">Réinitialiser les filtres</string>
+    <string name="no_meeting_image">No meeting image</string>
+</resources>
